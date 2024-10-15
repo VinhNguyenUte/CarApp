@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CarApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".login.Start"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login.Welcome">
+
+        </activity>
+        <activity android:name=".login.SignInByPass">
+
+        </activity>
+        <activity android:name=".login.Register">
+
+        </activity>
+        <activity android:name=".login.ResetPassword">
+
+        </activity>
+        <activity android:name=".login.ResetPassword_True">
+
+        </activity>
+        <activity android:name=".home.HOME"    >
+
+        </activity>
+        <activity android:name=".searchBar.SearchBar">
+
+        </activity>
+        <activity android:name=".searchBar.Search_Empty">
+
+        </activity>
+
+        <activity android:name=".home.Home_SpecialOffers">
+
+        </activity>
+
+        <activity android:name=".searchBar.Search_Item">
+
+        </activity>
+    </application>
+
+</manifest>

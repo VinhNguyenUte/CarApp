@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Profile" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+
+        <!-- Màu nền chính (cho nút, toolbar, v.v.) -->
+        <item name="colorPrimary">#B0ABBA</item>
+
+        <!-- Màu nhấn (accent color) cho các thành phần như nút FAB, checkboxes -->
+        <item name="colorSecondary">@color/my_light_secondary</item>
+
+        <!-- Màu của nút Button khi nhấn -->
+        <item name="colorPrimaryContainer">@color/my_light_primary_container</item>
+
+        <!-- Màu của Text hoặc các thành phần foreground -->
+        <item name="colorOnPrimary">@android:color/white</item>
+    </style>
+
+    <style name="Theme.Profile" parent="Base.Theme.Profile" />
+</resources>

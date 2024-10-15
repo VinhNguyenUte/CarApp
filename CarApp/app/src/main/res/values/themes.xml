@@ -1,6 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Base.Theme.CarApp" parent="Theme.AppCompat.Light.NoActionBar">
+=======
+    <style name="Base.Theme.CarApp" parent="Theme.Material3.DayNight.NoActionBar">
+>>>>>>> 4b72c30d8a1db023482c709d7895d9c8eef154b6
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>

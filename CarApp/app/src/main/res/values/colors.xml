@@ -2,5 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<<<<<<< HEAD
     <color name="red">#FF0000</color>
+=======
+>>>>>>> 4b72c30d8a1db023482c709d7895d9c8eef154b6
 </resources>

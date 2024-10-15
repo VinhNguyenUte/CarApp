@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/top_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_car"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:paddingLeft="10dp"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_chat"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ic_profile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_profile"
+        android:background="@drawable/ic_profile"
+        android:padding="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_profile"
+        android:text="John Cenna"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_profile"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/selection_bg"
+        android:drawableLeft="@drawable/ic_profile"
+        android:gravity="start"
+        android:text="Profile"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_profile" />
+
+    <Button
+        android:id="@+id/btn_notification"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/selection_bg"
+        android:drawableLeft="@drawable/ic_notifications"
+        android:gravity="start"
+        android:text="Notification"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_profile" />
+
+    <Button
+        android:id="@+id/btn_Language"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/selection_bg"
+        android:drawableLeft="@drawable/ic_language"
+        android:gravity="start"
+        android:text="Language"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_profile" />
+
+    <Button
+        android:id="@+id/btn_helpcenter"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/selection_bg"
+        android:drawableLeft="@drawable/helpcenter"
+        android:gravity="start"
+        android:text="Help Center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_profile" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_logout"
+        android:text="Profile"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_profile" />
+</androidx.constraintlayout.widget.ConstraintLayout>

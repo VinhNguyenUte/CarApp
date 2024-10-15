@@ -13,7 +13,11 @@
         android:theme="@style/Theme.CarApp"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".login.Start"
+=======
+            android:name=".MainActivity"
+>>>>>>> 4b72c30d8a1db023482c709d7895d9c8eef154b6
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".login.Welcome">
 
         </activity>
@@ -53,6 +58,8 @@
         <activity android:name=".searchBar.Search_Item">
 
         </activity>
+=======
+>>>>>>> 4b72c30d8a1db023482c709d7895d9c8eef154b6
     </application>
 
 </manifest>
